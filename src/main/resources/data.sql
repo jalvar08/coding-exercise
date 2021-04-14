@@ -1,0 +1,9 @@
+DROP TABLE IF EXISTS blogs;
+
+CREATE TABLE blogs (
+      id INT AUTO_INCREMENT PRIMARY KEY,
+      author VARCHAR(250) NOT NULL,
+      title VARCHAR(250) NOT NULL,
+      date DATE NOT NULL,
+      content VARCHAR(5000) NOT NULL
+);
